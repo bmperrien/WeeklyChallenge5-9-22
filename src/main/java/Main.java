@@ -4,5 +4,11 @@ public class Main {
 
         System.out.println(MagicIndex.magicIndex(test));
 
+        System.out.println(RecursiveMultiply.recursiveMult(9,8));
+        System.out.println(RecursiveMultiply.recursiveMult(-4,3));
+        System.out.println(RecursiveMultiply.recursiveMult(-2,-5));
+        System.out.println(RecursiveMultiply.recursiveMult(2,5));
+        System.out.println(RecursiveMultiply.recursiveMult(4,-3));
+
     }
 }

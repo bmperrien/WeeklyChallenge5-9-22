@@ -7,6 +7,7 @@ public class MagicIndex {
      Given a sorted array of distinct integers, write a method to find a magic index, if one exists, in array A.
 
     Follow up: What if the values are not distinct?
+        - If this is the case, just have to go through the whole array to see if there is a magic index
      */
 
 

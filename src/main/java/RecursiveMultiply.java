@@ -5,6 +5,14 @@ public class RecursiveMultiply {
      */
 
     public static int recursiveMult(int a, int b){
-        return -1;
+       if(b == 0){
+           return 0;
+       }else if(b == 1) {
+           return a;
+       }else if(b < 0){
+           return -(a + recursiveMult(a, b+1));
+       }else{
+           return a + recursiveMult(a, b-1);
+       }
     }
 }

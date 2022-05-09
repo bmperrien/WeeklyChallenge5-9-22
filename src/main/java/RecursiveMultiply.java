@@ -10,7 +10,7 @@ public class RecursiveMultiply {
        }else if(b == 1) {
            return a;
        }else if(b < 0){
-           return -(a + recursiveMult(a, b+1));
+           return -(a - recursiveMult(a, b+1));
        }else{
            return a + recursiveMult(a, b-1);
        }

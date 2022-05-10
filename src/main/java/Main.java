@@ -10,5 +10,7 @@ public class Main {
         System.out.println(RecursiveMultiply.recursiveMult(2,5));
         System.out.println(RecursiveMultiply.recursiveMult(4,-3));
 
+        PowerSet.powerSet("cat");
+
     }
 }
